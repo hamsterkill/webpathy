@@ -1,5 +1,5 @@
-api_id = '23274041'
-api_hash = 'b8528722bcb86cbc9cbbfaa22deaeda3'
+api_id = 'your_api_id'
+api_hash = 'your_api_hash'
 
 def process_user_status(status, types):
     if isinstance(status, types.UserStatusOnline):
