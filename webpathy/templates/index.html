@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% csrf_token %}
+    {% load static %}
+    <title>Webpathy</title>
+    <!-- Include Leaflet CSS file in the head section of your document -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <!-- Include Leaflet JS file after Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}"/>
+</head>
+<body>
+    <div class="container">
+        
+    <!-- Map container -->
+        <div id="mapid"></div>
+        <script src="{% static 'map.js' %}"></script>
+         <!-- User Data Grid -->
+        <div id="userDataGrid">
+            <!-- User data divs will be added here dynamically -->
+        </div>
+    </div>
+</body>
+</html>
