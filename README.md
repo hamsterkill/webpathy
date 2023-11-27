@@ -1,5 +1,5 @@
 # webpathy
-Simple OSINT web framework to locate people using telegram api. 
+Simple OSINT web framework to locate users using telegram api. 
 ## installation
 Clone, set up venv, install requirements, run server.
 ```bash
